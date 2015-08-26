@@ -665,6 +665,12 @@
 // Slideshow Layout
 // ----------------
 
+.homepage-slideshow {
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    background-color: darken(@color-swatch7,5%);
+}
+
 // Slideshow Height
 .homepage-slideshow .responsiveslideshow,
 .homepage-slideshow .responsiveslideshow__figure {
@@ -802,7 +808,6 @@
 }
 
 .responsiveslideshow .pagination-item.selected .button--pagination {
-    background-color: transparent;
     color: @font-swatch7-color;
 }
 
@@ -814,21 +819,6 @@
 
 .responsiveslideshow .figure {
     min-height: 0;
-}
-
-.responsiveslideshow__button {
-    background-color: transparent;
-    &:hover {
-        background-color: transparent;
-    }
-    &:after {
-        content: '\2605';
-        font-size: 18px;
-        position: absolute;
-        left: -1px;
-        top: -5px;
-        text-indent: 0;
-    }
 }
 
 .responsiveslideshow .button--pagination {

@@ -15,15 +15,13 @@
                 </div>
             </div>
         </div>
-        <div class="header-line">
-        </div>
     </div>
 </div>
 
 <!-- Container -->
 
 <div class="page-content">
-    <div class="container">
+    <div class="slideshow-container">
         <div class="homepage-slideshow">
         	{{widget('responsiveslideshow', 'slideshow', {
         	    'duration':'3',
@@ -58,21 +56,7 @@
         	    ]
         	})|raw}}
         </div>
-
-
-        <div class="feature-container clearfix">
-            <div class="feature-right-container">
-                {{widget('feature', 'feature-right', {
-                    "header": "profile",
-                    "strapline": "profile",
-                    "defaultBgImg": asset('images/feature-img1.jpg'),
-                    "positionTopPercentage": "50",
-                    "showBtn": true,
-                    "buttonText": "Lorem Ipsum"
-                })|raw}}
-            </div>
-        </div>
-
+    <div class="container">
     	<!-- Page Content -->
     	<section class="template-content">
 
@@ -82,6 +66,8 @@
     	</section>
     	<!-- End Page Content -->
 
+    </div>
+    <!-- End Container -->
     </div>
     <!-- End Container -->
 </div>

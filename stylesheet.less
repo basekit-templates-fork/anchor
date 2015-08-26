@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     height: 100vh;
     background-attachment: fixed;
+    background-color: darken(@color-swatch7,3%);
     & > * {
         flex: 0 0 auto;
     }
@@ -58,6 +59,10 @@ body {
     & > .bk-pt-default {
         flex: 1 0 auto;
     }
+}
+
+.page-content {
+    background-color: darken(@color-swatch7,3%);
 }
 
 // Page Container
@@ -70,6 +75,9 @@ body {
     padding-right: 5%;
     padding-top: 40px;
     padding-bottom: 30px;
+    border-left: 10px solid darken(@color-swatch7,5%);
+    border-right: 10px solid darken(@color-swatch7,5%);
+    background-color: @color-swatch1;
     @media screen and (max-width: 1024px){ 
         max-width: 960px;
         margin: 0;
@@ -79,6 +87,26 @@ body {
         padding-right: 3%;
         padding-bottom: 10px;
 	}
+}
+
+.slideshow-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: @color-swatch1;
+    @media screen and (max-width: 1024px){ 
+        max-width: 960px;
+        margin: 0;
+    }
+    @media @tablet {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+.footer-container {
+    padding: 20px;
+    width: 100%;
+    background-color: @color-swatch4;
 }
 
 // Header Wrapper
