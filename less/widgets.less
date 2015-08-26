@@ -686,11 +686,9 @@
 
 .responsiveslideshow__slide-pagination {
     position: absolute;
-    bottom: 10px;
-    right: 13px;
-    @media @mobile {
-        display: none;
-    }
+    right: 0;
+    left: 0;
+    padding-top: 10px;
 }
 
 // Slideshow Images
@@ -791,6 +789,7 @@
     display: inline-block;
     line-height: normal;
     overflow: hidden;
+    margin-right: 10px;
 }
 
 .responsiveslideshow__pagination-list {
@@ -803,8 +802,7 @@
     padding: 0;
     margin-bottom: 5px;
     position: relative;
-    height: 14px;
-    width: 18px;
+    background-color: darken(@color-swatch7, 20%);
 }
 
 .responsiveslideshow .pagination-item.selected .button--pagination {
@@ -815,6 +813,10 @@
 .responsiveslideshow__previous-button,
 .responsiveslideshow__pause-toggle {
     padding: 10px 20px;
+    border-radius: 0;
+    border: 0;
+    background-color: @color-swatch3;
+    color: @font-swatch7-color;
 }
 
 .responsiveslideshow .figure {
@@ -823,6 +825,10 @@
 
 .responsiveslideshow .button--pagination {
     text-indent: -100px;
+    border-radius: 15px;
+    height: 12px;
+    width: 12px;
+    border: 0;
 }
 
 .responsiveslideshow__pagination-item.js-dot.js-slide-ctrl.selected {
@@ -831,7 +837,9 @@
     }
 }
 
-
+.responsiveslideshow .selected .button {
+    background-color: darken(@color-swatch7, 40%);
+}
 
 
 // -----------------------------
@@ -904,17 +912,6 @@
 }
 
 
-//  7.6 #SLIDESHOW
-//  --------------
-
-.responsiveslideshow__next-button,
-.responsiveslideshow__previous-button,
-.responsiveslideshow__pause-toggle {
-    background-color: @color-swatch4;
-    color: @font-swatch7-color;
-}
-
-
 
 
 // -----------------------------
@@ -950,7 +947,6 @@ input.input[type=search],
 .contactform__button {
     margin: 0px auto;
     display: table;
-    border: 0;
 }
 
 
@@ -998,12 +994,10 @@ input.input[type=search],
 }
 
 .socialicons__social-link {
-    border: 1px solid @color-swatch4;
+    border: 1px solid @color-swatch1;
     padding: 10px;
     display: inline-block;
     color: @font-swatch4-color;
-    width: 40px;
-    height: 38px;
     text-align: center;
 }
 

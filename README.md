@@ -1,4 +1,6 @@
-Skate
+Anchor
 =========
 
-BaseKit eCommerce Template
+BaseKit eNom Luxury Template
+
+Forked from Skate
