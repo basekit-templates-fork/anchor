@@ -1,7 +1,7 @@
 {
-    "name":"Skate",
-    "thumbnail":"skate.png",
-    "screenshot":"skate.png",
+    "name":"anchor",
+    "thumbnail":"anchor.png",
+    "screenshot":"anchor.png",
     "tags": {
         "en": ["shopping", "ecommerce", "business", "store", "boutique", "professional", "minimal", "clean", "simple"],
         "es": ["compras", "ecommerce", "negocios", "tienda", "boutique", "profesional", "minimalista", "limpio", "simple"],
@@ -14,9 +14,7 @@
         "images/slideshow/slideshow-1.jpg",
         "images/slideshow/slideshow-2.jpg",
         "images/slideshow/slideshow-3.jpg",
-        "images/logo.jpg",
-        "images/feature-img1.jpg",
-        "images/feature-img2.jpg"
+        "images/logo.jpg"
     ],
     "colorSwatches":
     {
