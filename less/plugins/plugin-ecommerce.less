@@ -280,6 +280,10 @@
     }
 }
 
+.product-filter .form-group {
+    vertical-align: initial;
+}
+
 .ecomproductslist__product-content {
     border: 1px solid @color-swatch7;
     padding: 10px 0;
@@ -654,17 +658,26 @@ th {
 // 5. #Basket Filters
 // -------------------------------
 
-.ecomproductslist__fieldset--search {
-    float: right;
-    width: 50%;
+.ecomproductslist__fieldset--search,
+.ecomproductslist__fieldset--filters {
+    float: left;
+    width: 48.5%;
     @media @tablet {
         float: initial;
         width: 100%;
     }
 }
 
+.ecomproductslist__fieldset--search {
+    margin-right: 3%;
+    @media @tablet {
+        margin-right: 0;
+    }
+}
+
 .ecomproductslist__form-body {
     margin: 0 0 10px;
+    text-align: left;
 }
 
 .responsivecolumns .ecomproductslist__fieldset--search {

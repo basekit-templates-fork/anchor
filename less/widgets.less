@@ -771,6 +771,15 @@
     width: 110px;
     margin-top: -24px;
     height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in;
+}
+
+.bk-responsiveslideshow:hover .pause-toggle {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    visibility: visible;
 }
 
 .responsiveslideshow__pause-toggle {

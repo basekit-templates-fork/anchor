@@ -65,6 +65,7 @@
 
 .post-content {
 	margin: 20px 0 20px;
+    text-align: center;
 }
 
 .blog-search__input {
@@ -215,6 +216,7 @@
 
 // Blog Post List Footer
 .blogpostlist__post-footer {
+    text-align: center;
     width: 50.1%;
     @media @tablet {
         width: initial;
@@ -238,6 +240,10 @@
         width: initial;
         padding-left: 0;
     }
+}
+
+.post-image + .post-content {
+    text-align: left;
 }
 
 // Blog Post List Pagination
@@ -390,18 +396,7 @@
     position: relative;
     border: 1px solid darken(@color-swatch1,10%);
     padding: 40px 20px 0 20px;
-    &:before {
-        content: '\2605';
-        color: @font-swatch4-color;
-        position: absolute;
-        top: -16px;
-        margin-left: -2px;
-        background-color: @color-swatch1;
-        width: 15px;
-        left: 0;
-        right: 0;
-        margin: 0px auto;
-    }
+    margin: 0px auto;
 }
 
 .blogpost__post-category {
